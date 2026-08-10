@@ -1,0 +1,1252 @@
+{
+  "fonteGeometrias": "complexos_final.gpkg",
+  "fonteUsinas": "usinasufvNeagosto2026.gpkg",
+  "auditoria": {
+    "complexosPublicados": 63,
+    "totalRegistrosUsinas": 317,
+    "totalUsinasRelacionadas": 311,
+    "usinasSemCodCeg": [
+      {
+        "fid": 292,
+        "nome": "Fótons de Santa Larissa 01",
+        "codCegAneel": "UFV.RS.BA.049855-6.1",
+        "uf": "BA"
+      },
+      {
+        "fid": 293,
+        "nome": "Fótons de Santa Larissa 02",
+        "codCegAneel": "UFV.RS.BA.049856-4.1",
+        "uf": "BA"
+      },
+      {
+        "fid": 294,
+        "nome": "Fótons de Santa Larissa 03",
+        "codCegAneel": "UFV.RS.BA.049857-2.1",
+        "uf": "BA"
+      },
+      {
+        "fid": 295,
+        "nome": "Fótons de Santa Larissa 04",
+        "codCegAneel": "UFV.RS.BA.049858-0.1",
+        "uf": "BA"
+      },
+      {
+        "fid": 298,
+        "nome": "Fótons de São Claus 01",
+        "codCegAneel": "UFV.RS.BA.049939-0.1",
+        "uf": "BA"
+      },
+      {
+        "fid": 299,
+        "nome": "Fótons de São Claus 02",
+        "codCegAneel": "UFV.RS.BA.049940-4.1",
+        "uf": "BA"
+      }
+    ],
+    "complexosSemUsinaRelacionada": [
+      {
+        "cod_ceg": 2607,
+        "nome": "Pajeú",
+        "uf": "PE"
+      }
+    ],
+    "potenciaOutorgadaKw": 11610300.38,
+    "potenciaFiscalizadaKw": 11610278.0,
+    "areaComplexosKm2": 280.350219,
+    "relation": "complexos_final.cod_ceg = usinasUfvNeAgosto2026.cod_ceg"
+  },
+  "complexos": [
+    {
+      "id": "pb::2501",
+      "codCegGrupo": 2501,
+      "nome": "Angico",
+      "municipio": "Malta",
+      "uf": "PB",
+      "areaKm2": 0.48820341,
+      "areaHa": 48.820341,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 27200.0,
+      "potenciaFiscalizadaKw": 27200.0,
+      "usinasGeradoras": [
+        "Angico I"
+      ]
+    },
+    {
+      "id": "pb::2502",
+      "codCegGrupo": 2502,
+      "nome": "Coremas",
+      "municipio": "Coremas",
+      "uf": "PB",
+      "areaKm2": 3.81797646,
+      "areaHa": 381.797646,
+      "quantidadeUsinas": 8,
+      "potenciaOutorgadaKw": 216000.0,
+      "potenciaFiscalizadaKw": 216000.0,
+      "usinasGeradoras": [
+        "Coremas I",
+        "Coremas III",
+        "Coremas IV",
+        "Coremas VI",
+        "Coremas VII",
+        "Coremas V",
+        "Coremas II",
+        "Coremas VIII"
+      ]
+    },
+    {
+      "id": "pe::2615",
+      "codCegGrupo": 2615,
+      "nome": "Brígida",
+      "municipio": "São José do Belmonte",
+      "uf": "PE",
+      "areaKm2": 1.31295578,
+      "areaHa": 131.295578,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 63000.0,
+      "potenciaFiscalizadaKw": 63000.0,
+      "usinasGeradoras": [
+        "Brígida",
+        "Brigida 2"
+      ]
+    },
+    {
+      "id": "pe::2611",
+      "codCegGrupo": 2611,
+      "nome": "Belmonte",
+      "municipio": "São José do Belmonte",
+      "uf": "PE",
+      "areaKm2": 11.2154939,
+      "areaHa": 1121.54939,
+      "quantidadeUsinas": 10,
+      "potenciaOutorgadaKw": 455001.0,
+      "potenciaFiscalizadaKw": 455001.0,
+      "usinasGeradoras": [
+        "Belmonte 1-1",
+        "Belmonte 1-2",
+        "Belmonte 1-3",
+        "Belmonte 1-4",
+        "Belmonte 2-1",
+        "Belmonte 2-2",
+        "Belmonte 2-3",
+        "Belmonte 2-4",
+        "Belmonte 2-5",
+        "Belmonte 2-6"
+      ]
+    },
+    {
+      "id": "pe::2612",
+      "codCegGrupo": 2612,
+      "nome": "Luiz Gonzaga",
+      "municipio": "Terra Nova",
+      "uf": "PE",
+      "areaKm2": 2.99411122,
+      "areaHa": 299.411122,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 90000.0,
+      "potenciaFiscalizadaKw": 90000.0,
+      "usinasGeradoras": [
+        "Luiz Gonzaga I",
+        "Luiz Gonzaga II",
+        "Luiz Gonzaga III"
+      ]
+    },
+    {
+      "id": "pe::2613",
+      "codCegGrupo": 2613,
+      "nome": "Solar Salgueiro",
+      "municipio": "Terra Nova",
+      "uf": "PE",
+      "areaKm2": 2.3282504,
+      "areaHa": 232.82504,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 90000.0,
+      "potenciaFiscalizadaKw": 90000.0,
+      "usinasGeradoras": [
+        "Solar Salgueiro",
+        "Solar Salgueiro III",
+        "Solar Salgueiro II"
+      ]
+    },
+    {
+      "id": "pe::2614",
+      "codCegGrupo": 2614,
+      "nome": "Serrita",
+      "municipio": "Serrita",
+      "uf": "PE",
+      "areaKm2": 1.23961263,
+      "areaHa": 123.961263,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 60000.0,
+      "potenciaFiscalizadaKw": 60000.0,
+      "usinasGeradoras": [
+        "Serrita I (Antigo Enercom Serrita I)",
+        "Serrita II (Antiga Enercom Serrita II)"
+      ]
+    },
+    {
+      "id": "pe::2607",
+      "codCegGrupo": 2607,
+      "nome": "Pajeú",
+      "municipio": "Flores",
+      "uf": "PE",
+      "areaKm2": 0.03344771,
+      "areaHa": 3.344771,
+      "quantidadeUsinas": 0,
+      "potenciaOutorgadaKw": 0,
+      "potenciaFiscalizadaKw": 0,
+      "usinasGeradoras": []
+    },
+    {
+      "id": "pe::2608",
+      "codCegGrupo": 2608,
+      "nome": "Xaxado",
+      "municipio": "São José do Belmonte",
+      "uf": "PE",
+      "areaKm2": 1.94699609,
+      "areaHa": 194.699609,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 96000.18,
+      "potenciaFiscalizadaKw": 96000.0,
+      "usinasGeradoras": [
+        "Xaxado 1",
+        "Xaxado 2",
+        "Xaxado 3"
+      ]
+    },
+    {
+      "id": "pe::2609",
+      "codCegGrupo": 2609,
+      "nome": "Ciranda",
+      "municipio": "São José do Belmonte",
+      "uf": "PE",
+      "areaKm2": 3.10410813,
+      "areaHa": 310.410813,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 148500.0,
+      "potenciaFiscalizadaKw": 148500.0,
+      "usinasGeradoras": [
+        "Ciranda 1",
+        "Ciranda 2",
+        "Ciranda 3"
+      ]
+    },
+    {
+      "id": "pe::2610",
+      "codCegGrupo": 2610,
+      "nome": "Bom Nome",
+      "municipio": "São José do Belmonte",
+      "uf": "PE",
+      "areaKm2": 2.1205133,
+      "areaHa": 212.05133,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 100000.0,
+      "potenciaFiscalizadaKw": 100000.0,
+      "usinasGeradoras": [
+        "Bom Nome 1-5",
+        "Bom Nome 1-6"
+      ]
+    },
+    {
+      "id": "pe::2603",
+      "codCegGrupo": 2603,
+      "nome": "Sol do Agreste",
+      "municipio": "Tacaimbó",
+      "uf": "PE",
+      "areaKm2": 3.09211105,
+      "areaHa": 309.211105,
+      "quantidadeUsinas": 6,
+      "potenciaOutorgadaKw": 169830.0,
+      "potenciaFiscalizadaKw": 169830.0,
+      "usinasGeradoras": [
+        "Sol do Agreste I",
+        "Sol do Agreste II",
+        "Sol do Agreste III",
+        "Sol do Agreste IV",
+        "Sol do Agreste V",
+        "Sol do Agreste VI"
+      ]
+    },
+    {
+      "id": "pi::2211",
+      "codCegGrupo": 2211,
+      "nome": "Sertão",
+      "municipio": "João Costa",
+      "uf": "PI",
+      "areaKm2": 0.88556948,
+      "areaHa": 88.556948,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 30000.0,
+      "potenciaFiscalizadaKw": 30000.0,
+      "usinasGeradoras": [
+        "Sertão 1"
+      ]
+    },
+    {
+      "id": "pe::2606",
+      "codCegGrupo": 2606,
+      "nome": "São Pedro e Paulo",
+      "municipio": "Flores",
+      "uf": "PE",
+      "areaKm2": 1.60069612,
+      "areaHa": 160.069612,
+      "quantidadeUsinas": 4,
+      "potenciaOutorgadaKw": 83915.0,
+      "potenciaFiscalizadaKw": 83915.0,
+      "usinasGeradoras": [
+        "São Pedro e Paulo I",
+        "São Pedro e Paulo V",
+        "São Pedro e Paulo VI",
+        "São Pedro e Paulo VIII"
+      ]
+    },
+    {
+      "id": "pi::2212",
+      "codCegGrupo": 2212,
+      "nome": "São Gonçalo",
+      "municipio": "São Gonçalo do Gurguéia",
+      "uf": "PI",
+      "areaKm2": 18.571784,
+      "areaHa": 1857.1784,
+      "quantidadeUsinas": 18,
+      "potenciaOutorgadaKw": 790368.0,
+      "potenciaFiscalizadaKw": 790368.0,
+      "usinasGeradoras": [
+        "São Gonçalo 1",
+        "São Gonçalo 2",
+        "São Gonçalo 3",
+        "São Gonçalo 4",
+        "São Gonçalo 5",
+        "São Gonçalo 6",
+        "São Gonçalo 7",
+        "São Gonçalo 8",
+        "São Gonçalo 10",
+        "São Gonçalo 11",
+        "São Gonçalo 12",
+        "São Gonçalo 14",
+        "São Gonçalo 15",
+        "São Gonçalo 17",
+        "São Gonçalo 18",
+        "São Gonçalo 19",
+        "São Gonçalo 21",
+        "São Gonçalo 22"
+      ]
+    },
+    {
+      "id": "pe::2601",
+      "codCegGrupo": 2601,
+      "nome": "Maravilhas",
+      "municipio": "Pedras de Fogo",
+      "uf": "PE",
+      "areaKm2": 1.04877678,
+      "areaHa": 104.877678,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 54000.0,
+      "potenciaFiscalizadaKw": 54000.0,
+      "usinasGeradoras": [
+        "Maravilhas I",
+        "Maravilhas II"
+      ]
+    },
+    {
+      "id": "pi::2207",
+      "codCegGrupo": 2207,
+      "nome": "Sol do Piauí",
+      "municipio": "Curral Novo do Piauí",
+      "uf": "PI",
+      "areaKm2": 0.95114254,
+      "areaHa": 95.114254,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 48118.0,
+      "potenciaFiscalizadaKw": 48118.0,
+      "usinasGeradoras": [
+        "Sol do Piauí"
+      ]
+    },
+    {
+      "id": "pe::2602",
+      "codCegGrupo": 2602,
+      "nome": "Fazenda Esmeralda",
+      "municipio": "Agrestina",
+      "uf": "PE",
+      "areaKm2": 0.61380091,
+      "areaHa": 61.380091,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 29000.0,
+      "potenciaFiscalizadaKw": 29000.0,
+      "usinasGeradoras": [
+        "Fazenda Esmeralda"
+      ]
+    },
+    {
+      "id": "pi::2208",
+      "codCegGrupo": 2208,
+      "nome": "Panorama",
+      "municipio": "Ribeiro Gonçalves",
+      "uf": "PI",
+      "areaKm2": 5.55244251,
+      "areaHa": 555.244251,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 300000.0,
+      "potenciaFiscalizadaKw": 300000.0,
+      "usinasGeradoras": [
+        "Panorama 01",
+        "Panorama 02",
+        "Panorama 03"
+      ]
+    },
+    {
+      "id": "pi::2209",
+      "codCegGrupo": 2209,
+      "nome": "Ribeiro Gonçalves",
+      "municipio": "Ribeiro Gonçalves",
+      "uf": "PI",
+      "areaKm2": 4.19830092,
+      "areaHa": 419.830092,
+      "quantidadeUsinas": 7,
+      "potenciaOutorgadaKw": 223213.0,
+      "potenciaFiscalizadaKw": 223213.0,
+      "usinasGeradoras": [
+        "Ribeiro Gonçalves I",
+        "Ribeiro Gonçalves II",
+        "Ribeiro Gonçalves III",
+        "Ribeiro Gonçalves IV",
+        "Ribeiro Gonçalves VI",
+        "Ribeiro Gonçalves VII",
+        "Ribeiro Gonçalves VIII"
+      ]
+    },
+    {
+      "id": "pi::2203",
+      "codCegGrupo": 2203,
+      "nome": "Caldeirão Grande",
+      "municipio": "Caldeirão Grande",
+      "uf": "PI",
+      "areaKm2": 5.3127386,
+      "areaHa": 531.27386,
+      "quantidadeUsinas": 7,
+      "potenciaOutorgadaKw": 213094.0,
+      "potenciaFiscalizadaKw": 213094.0,
+      "usinasGeradoras": [
+        "Caldeirão Grande III (Antiga Santa Veridiana)",
+        "Caldeirão Grande VI (Antiga Santa Verônica)",
+        "Caldeirão Grande VII (Antiga São Moises)",
+        "Caldeirão Grande V (Antiga São Felix)",
+        "Caldeirão Grande I (Antiga São Basílio)",
+        "Caldeirão Grande II (Antiga Santo Anastácio)",
+        "Caldeirão Grande IV (Antiga Santo Amaro do Piauí)"
+      ]
+    },
+    {
+      "id": "pi::2204",
+      "codCegGrupo": 2204,
+      "nome": "São João do Piaui",
+      "municipio": "São João do Piaui",
+      "uf": "PI",
+      "areaKm2": 3.89578156,
+      "areaHa": 389.578156,
+      "quantidadeUsinas": 6,
+      "potenciaOutorgadaKw": 186050.0,
+      "potenciaFiscalizadaKw": 186050.0,
+      "usinasGeradoras": [
+        "ETESA 17 São João do Piauí I",
+        "ETESA 18 São João do Piauí II",
+        "ETESA 19 São João do Piauí III",
+        "ETESA 20 São João do Piauí IV",
+        "ETESA 21 São João do Piauí V",
+        "ETESA 22 São João do Piauí VI"
+      ]
+    },
+    {
+      "id": "pi::2205",
+      "codCegGrupo": 2205,
+      "nome": "Sobral",
+      "municipio": "São João do Piaui",
+      "uf": "PI",
+      "areaKm2": 0.83803136,
+      "areaHa": 83.803136,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 30000.0,
+      "potenciaFiscalizadaKw": 30000.0,
+      "usinasGeradoras": [
+        "Sobral 1"
+      ]
+    },
+    {
+      "id": "pi::2206",
+      "codCegGrupo": 2206,
+      "nome": "Nova Olinda",
+      "municipio": "Ribeira do Piauí",
+      "uf": "PI",
+      "areaKm2": 6.17401619,
+      "areaHa": 617.401619,
+      "quantidadeUsinas": 7,
+      "potenciaOutorgadaKw": 210000.0,
+      "potenciaFiscalizadaKw": 210000.0,
+      "usinasGeradoras": [
+        "Nova Olinda 8",
+        "Nova Olinda 9",
+        "Nova Olinda 10",
+        "Nova Olinda 11",
+        "Nova Olinda 12",
+        "Nova Olinda 13",
+        "Nova Olinda 14"
+      ]
+    },
+    {
+      "id": "rn::2407",
+      "codCegGrupo": 2407,
+      "nome": "Serra do Mel",
+      "municipio": "Serra do Mel",
+      "uf": "RN",
+      "areaKm2": 11.30339979,
+      "areaHa": 1130.339979,
+      "quantidadeUsinas": 6,
+      "potenciaOutorgadaKw": 433062.0,
+      "potenciaFiscalizadaKw": 433062.0,
+      "usinasGeradoras": [
+        "Serra do Mel I",
+        "Serra do Mel II",
+        "Serra do Mel V (Antiga Serra do Mel VII)",
+        "Serra do Mel VI (Antiga Serra do Mel VIII)",
+        "Serra do Mel III (Antiga Serra do Mel IX)",
+        "Serra do Mel IV (Antiga Serra do Mel X)"
+      ]
+    },
+    {
+      "id": "pi::2201",
+      "codCegGrupo": 2201,
+      "nome": "Marangatu",
+      "municipio": "Brasileira",
+      "uf": "PI",
+      "areaKm2": 10.02490105,
+      "areaHa": 1002.490105,
+      "quantidadeUsinas": 12,
+      "potenciaOutorgadaKw": 360000.0,
+      "potenciaFiscalizadaKw": 360000.0,
+      "usinasGeradoras": [
+        "Marangatu 4",
+        "Marangatu 5",
+        "Marangatu 6",
+        "Marangatu 1",
+        "Marangatu 2",
+        "Marangatu 3",
+        "Marangatu 7",
+        "Marangatu 8",
+        "Marangatu 9",
+        "Marangatu 10",
+        "Marangatu 11",
+        "Marangatu 12"
+      ]
+    },
+    {
+      "id": "rn::2403",
+      "codCegGrupo": 2403,
+      "nome": "Dunamis",
+      "municipio": "Santana do Matos",
+      "uf": "RN",
+      "areaKm2": 2.63320434,
+      "areaHa": 263.320434,
+      "quantidadeUsinas": 4,
+      "potenciaOutorgadaKw": 117540.0,
+      "potenciaFiscalizadaKw": 117540.0,
+      "usinasGeradoras": [
+        "Dunamis I",
+        "Dunamis II",
+        "Dunamis III",
+        "Dunamis IV"
+      ]
+    },
+    {
+      "id": "rn::2404",
+      "codCegGrupo": 2404,
+      "nome": "Floresta",
+      "municipio": "Areia Branca",
+      "uf": "RN",
+      "areaKm2": 2.10276826,
+      "areaHa": 210.276826,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 86000.0,
+      "potenciaFiscalizadaKw": 86000.0,
+      "usinasGeradoras": [
+        "Floresta III",
+        "Floresta II",
+        "Floresta I"
+      ]
+    },
+    {
+      "id": "rn::2405",
+      "codCegGrupo": 2405,
+      "nome": "Mendubim",
+      "municipio": "Assu",
+      "uf": "RN",
+      "areaKm2": 20.29844923,
+      "areaHa": 2029.844923,
+      "quantidadeUsinas": 13,
+      "potenciaOutorgadaKw": 452590.0,
+      "potenciaFiscalizadaKw": 452590.0,
+      "usinasGeradoras": [
+        "Mendubim I",
+        "Mendubim II",
+        "Mendubim III",
+        "Mendubim IV",
+        "Mendubim V",
+        "Mendubim VI",
+        "Mendubim VII",
+        "Mendubim VIII",
+        "Mendubim IX",
+        "Mendubim X",
+        "Mendubim XI",
+        "Mendubim XII",
+        "Mendubim XIII"
+      ]
+    },
+    {
+      "id": "rn::2406",
+      "codCegGrupo": 2406,
+      "nome": "Monte Verde",
+      "municipio": "Pedro Avelino",
+      "uf": "RN",
+      "areaKm2": 7.38803908,
+      "areaHa": 738.803908,
+      "quantidadeUsinas": 5,
+      "potenciaOutorgadaKw": 212355.65,
+      "potenciaFiscalizadaKw": 212355.0,
+      "usinasGeradoras": [
+        "Monte Verde Solar V",
+        "Monte Verde Solar VII",
+        "Monte Verde Solar II",
+        "Monte Verde Solar III",
+        "Monte Verde Solar IV"
+      ]
+    },
+    {
+      "id": "rn::2401",
+      "codCegGrupo": 2401,
+      "nome": "Assú",
+      "municipio": "Assú",
+      "uf": "RN",
+      "areaKm2": 1.1135077,
+      "areaHa": 111.35077,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 34000.0,
+      "potenciaFiscalizadaKw": 34000.0,
+      "usinasGeradoras": [
+        "Assú V"
+      ]
+    },
+    {
+      "id": "ce::2311",
+      "codCegGrupo": 2311,
+      "nome": "Panati",
+      "municipio": "Jaguaretama",
+      "uf": "CE",
+      "areaKm2": 5.12939873,
+      "areaHa": 512.939873,
+      "quantidadeUsinas": 8,
+      "potenciaOutorgadaKw": 230000.0,
+      "potenciaFiscalizadaKw": 230000.0,
+      "usinasGeradoras": [
+        "Panatí 1",
+        "Panatí 2",
+        "Panatí 3",
+        "Panatí 4",
+        "Panatí 5",
+        "Panatí 6",
+        "Sitiá 1",
+        "Sitiá 2"
+      ]
+    },
+    {
+      "id": "rn::2402",
+      "codCegGrupo": 2402,
+      "nome": "Assú Sol",
+      "municipio": "Assú",
+      "uf": "RN",
+      "areaKm2": 9.51185183,
+      "areaHa": 951.185183,
+      "quantidadeUsinas": 16,
+      "potenciaOutorgadaKw": 752680.0,
+      "potenciaFiscalizadaKw": 752680.0,
+      "usinasGeradoras": [
+        "Assu Sol 1",
+        "Assu Sol 2",
+        "Assu Sol 3",
+        "Assu Sol 4",
+        "Assu Sol 5",
+        "Assu Sol 6",
+        "Assu Sol 7",
+        "Assu Sol 8",
+        "Assu Sol 9",
+        "Assu Sol 10",
+        "Assu Sol 11",
+        "Assu Sol 12",
+        "Assu Sol 13",
+        "Assu Sol 14",
+        "Assu Sol 15",
+        "Assu Sol 16"
+      ]
+    },
+    {
+      "id": "ce::2312",
+      "codCegGrupo": 2312,
+      "nome": "Bom Jardim",
+      "municipio": "Icó",
+      "uf": "CE",
+      "areaKm2": 3.4494544,
+      "areaHa": 344.94544,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 144354.0,
+      "potenciaFiscalizadaKw": 144354.0,
+      "usinasGeradoras": [
+        "Bom Jardim I",
+        "Bom Jardim II",
+        "Bom Jardim III"
+      ]
+    },
+    {
+      "id": "ba::2911",
+      "codCegGrupo": 2911,
+      "nome": "Solar Irecê",
+      "municipio": "João Dourado",
+      "uf": "BA",
+      "areaKm2": 2.71451908,
+      "areaHa": 271.451908,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 133400.0,
+      "potenciaFiscalizadaKw": 133400.0,
+      "usinasGeradoras": [
+        "Solar Irecê",
+        "Solar Irecê 3"
+      ]
+    },
+    {
+      "id": "ce::2313",
+      "codCegGrupo": 2313,
+      "nome": "Milagres",
+      "municipio": "Milagres",
+      "uf": "CE",
+      "areaKm2": 3.72132932,
+      "areaHa": 372.132932,
+      "quantidadeUsinas": 5,
+      "potenciaOutorgadaKw": 163700.0,
+      "potenciaFiscalizadaKw": 163700.0,
+      "usinasGeradoras": [
+        "Milagres I",
+        "Milagres II",
+        "Milagres III",
+        "Milagres V",
+        "Milagres IV"
+      ]
+    },
+    {
+      "id": "ba::2912",
+      "codCegGrupo": 2912,
+      "nome": "Solar Sobrado",
+      "municipio": "Casa Nova",
+      "uf": "BA",
+      "areaKm2": 1.04544406,
+      "areaHa": 104.544406,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 30000.0,
+      "potenciaFiscalizadaKw": 30000.0,
+      "usinasGeradoras": [
+        "Sobrado 1"
+      ]
+    },
+    {
+      "id": "ce::2314",
+      "codCegGrupo": 2314,
+      "nome": "Mauriti",
+      "municipio": "Mauriti",
+      "uf": "CE",
+      "areaKm2": 8.17459254,
+      "areaHa": 817.459254,
+      "quantidadeUsinas": 9,
+      "potenciaOutorgadaKw": 343770.0,
+      "potenciaFiscalizadaKw": 343770.0,
+      "usinasGeradoras": [
+        "Mauriti 1",
+        "Mauriti 2",
+        "Mauriti 3",
+        "Mauriti 4",
+        "Mauriti 5",
+        "Mauriti 6",
+        "Mauriti 7",
+        "Mauriti 8",
+        "Mauriti 9"
+      ]
+    },
+    {
+      "id": "ba::2913",
+      "codCegGrupo": 2913,
+      "nome": "Verde Vale",
+      "municipio": "Guanambi",
+      "uf": "BA",
+      "areaKm2": 0.49612182,
+      "areaHa": 49.612182,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 14300.0,
+      "potenciaFiscalizadaKw": 14300.0,
+      "usinasGeradoras": [
+        "Verde Vale III"
+      ]
+    },
+    {
+      "id": "ba::2914",
+      "codCegGrupo": 2914,
+      "nome": "Sol de Brotas",
+      "municipio": "Brotas de Macaúbas",
+      "uf": "BA",
+      "areaKm2": 1.55899234,
+      "areaHa": 155.899234,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 65000.0,
+      "potenciaFiscalizadaKw": 65000.0,
+      "usinasGeradoras": [
+        "Sol de Brotas 1",
+        "Sol de Brotas 2"
+      ]
+    },
+    {
+      "id": "ba::2907",
+      "codCegGrupo": 2907,
+      "nome": "São Pedro",
+      "municipio": "Bom Jesus da Lapa",
+      "uf": "BA",
+      "areaKm2": 1.49811952,
+      "areaHa": 149.811952,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 54000.0,
+      "potenciaFiscalizadaKw": 54000.0,
+      "usinasGeradoras": [
+        "São Pedro II",
+        "São Pedro IV"
+      ]
+    },
+    {
+      "id": "ba::2908",
+      "codCegGrupo": 2908,
+      "nome": "Serra da Babilônia",
+      "municipio": "Morro do Chapéu",
+      "uf": "BA",
+      "areaKm2": 4.1842104,
+      "areaHa": 418.42104,
+      "quantidadeUsinas": 4,
+      "potenciaOutorgadaKw": 123000.0,
+      "potenciaFiscalizadaKw": 123000.0,
+      "usinasGeradoras": [
+        "SDB Solar 1 (Antiga - P. Solar I)",
+        "SDB Solar 2 (Antiga - P. Solar II)",
+        "SDB Solar 3 (Antiga - P. Solar III)",
+        "SDB Solar 4 (Antiga - P. Solar IV)"
+      ]
+    },
+    {
+      "id": "ba::2909",
+      "codCegGrupo": 2909,
+      "nome": "Sertão Solar",
+      "municipio": "Barreiras",
+      "uf": "BA",
+      "areaKm2": 12.12727698,
+      "areaHa": 1212.727698,
+      "quantidadeUsinas": 11,
+      "potenciaOutorgadaKw": 444640.0,
+      "potenciaFiscalizadaKw": 444640.0,
+      "usinasGeradoras": [
+        "Sertão Solar Barreiras I",
+        "Sertão Solar Barreiras II",
+        "Sertão Solar Barreiras III",
+        "Sertão Solar Barreiras IV",
+        "Sertão solar Barreiras XIX",
+        "Sertão Solar Barreiras XV",
+        "Sertão Solar Barreiras XVI",
+        "Sertão Solar Barreiras XVII",
+        "Sertão Solar Barreiras XVIII",
+        "Sertão Solar Barreiras XX",
+        "Sertão Solar Barreiras XXI"
+      ]
+    },
+    {
+      "id": "ba::2910",
+      "codCegGrupo": 2910,
+      "nome": "Sol do Sertão",
+      "municipio": "Oliveira dos Brejinhos",
+      "uf": "BA",
+      "areaKm2": 8.17529535,
+      "areaHa": 817.529535,
+      "quantidadeUsinas": 8,
+      "potenciaOutorgadaKw": 414999.95,
+      "potenciaFiscalizadaKw": 414996.0,
+      "usinasGeradoras": [
+        "Sol do Sertão XXXV",
+        "Sol do Sertão XII",
+        "Sol do Sertão XIII",
+        "Terra do Sol VII",
+        "Terra do Sol XI",
+        "Sol do Sertão XIV",
+        "Sol do Sertão VIII",
+        "Sol do Sertão XXXVI"
+      ]
+    },
+    {
+      "id": "ba::2903",
+      "codCegGrupo": 2903,
+      "nome": "Futura",
+      "municipio": "Juazeiro",
+      "uf": "BA",
+      "areaKm2": 15.7115326,
+      "areaHa": 1571.15326,
+      "quantidadeUsinas": 22,
+      "potenciaOutorgadaKw": 692445.6,
+      "potenciaFiscalizadaKw": 692428.0,
+      "usinasGeradoras": [
+        "Futura 1",
+        "Futura 2",
+        "Futura 3",
+        "Futura 4",
+        "Futura 5",
+        "Futura 6",
+        "Futura 7",
+        "Futura 8",
+        "Futura 9",
+        "Futura 10",
+        "Futura 11",
+        "Futura 12",
+        "Futura 13",
+        "Futura 14",
+        "Futura 15",
+        "Futura 16",
+        "Futura 17",
+        "Futura 18",
+        "Futura 19",
+        "Futura 20",
+        "Futura 21",
+        "Futura 22"
+      ]
+    },
+    {
+      "id": "ce::2307",
+      "codCegGrupo": 2307,
+      "nome": "Arapuá",
+      "municipio": "Jaguaruana",
+      "uf": "CE",
+      "areaKm2": 5.56164512,
+      "areaHa": 556.164512,
+      "quantidadeUsinas": 4,
+      "potenciaOutorgadaKw": 199800.0,
+      "potenciaFiscalizadaKw": 199800.0,
+      "usinasGeradoras": [
+        "Arapuá 1",
+        "Arapuá 2",
+        "Arapuá 3",
+        "Arapuá 4"
+      ]
+    },
+    {
+      "id": "ba::2904",
+      "codCegGrupo": 2904,
+      "nome": "Horizonte",
+      "municipio": "Tabocas do Brejo Velho",
+      "uf": "BA",
+      "areaKm2": 2.19948744,
+      "areaHa": 219.948744,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 79800.0,
+      "potenciaFiscalizadaKw": 79800.0,
+      "usinasGeradoras": [
+        "Horizonte MP 1",
+        "Horizonte MP 2",
+        "Horizonte MP 11"
+      ]
+    },
+    {
+      "id": "ce::2308",
+      "codCegGrupo": 2308,
+      "nome": "Lagoinha",
+      "municipio": "Russas",
+      "uf": "CE",
+      "areaKm2": 3.16041563,
+      "areaHa": 316.041563,
+      "quantidadeUsinas": 4,
+      "potenciaOutorgadaKw": 164976.0,
+      "potenciaFiscalizadaKw": 164976.0,
+      "usinasGeradoras": [
+        "Lagoinha I",
+        "Lagoinha II",
+        "Lagoinha III",
+        "Lagoinha IV"
+      ]
+    },
+    {
+      "id": "ce::2309",
+      "codCegGrupo": 2309,
+      "nome": "Apodi",
+      "municipio": "Quixere",
+      "uf": "CE",
+      "areaKm2": 4.05904315,
+      "areaHa": 405.904315,
+      "quantidadeUsinas": 4,
+      "potenciaOutorgadaKw": 132000.0,
+      "potenciaFiscalizadaKw": 132000.0,
+      "usinasGeradoras": [
+        "Apodi I",
+        "Apodi II",
+        "Apodi III",
+        "Apodi IV"
+      ]
+    },
+    {
+      "id": "ba::2905",
+      "codCegGrupo": 2905,
+      "nome": "Ituverava",
+      "municipio": "Tabocas do Brejo Velho",
+      "uf": "BA",
+      "areaKm2": 4.73296454,
+      "areaHa": 473.296454,
+      "quantidadeUsinas": 7,
+      "potenciaOutorgadaKw": 196000.0,
+      "potenciaFiscalizadaKw": 196000.0,
+      "usinasGeradoras": [
+        "Ituverava 1",
+        "Ituverava 2",
+        "Ituverava 3",
+        "Ituverava 4",
+        "Ituverava 5",
+        "Ituverava 6",
+        "Ituverava 7"
+      ]
+    },
+    {
+      "id": "ce::2310",
+      "codCegGrupo": 2310,
+      "nome": "Alex",
+      "municipio": "Limoeiro do Norte, Tabuleiro do Norte",
+      "uf": "CE",
+      "areaKm2": 7.00337512,
+      "areaHa": 700.337512,
+      "quantidadeUsinas": 9,
+      "potenciaOutorgadaKw": 278397.0,
+      "potenciaFiscalizadaKw": 278397.0,
+      "usinasGeradoras": [
+        "Alex I",
+        "Alex V",
+        "Alex VI",
+        "Alex VII",
+        "Alex VIII",
+        "Alex IX",
+        "Alex X",
+        "Alex III",
+        "Alex IV"
+      ]
+    },
+    {
+      "id": "ba::2906",
+      "codCegGrupo": 2906,
+      "nome": "Juazeiro",
+      "municipio": "Juazeiro",
+      "uf": "BA",
+      "areaKm2": 6.998673,
+      "areaHa": 699.8673,
+      "quantidadeUsinas": 8,
+      "potenciaOutorgadaKw": 277077.0,
+      "potenciaFiscalizadaKw": 277077.0,
+      "usinasGeradoras": [
+        "Juazeiro Solar I",
+        "Juazeiro Solar II",
+        "Juazeiro Solar III",
+        "Juazeiro Solar IV",
+        "Juazeiro V",
+        "Juazeiro VI",
+        "Juazeiro VII",
+        "Juazeiro VIII"
+      ]
+    },
+    {
+      "id": "ce::2304",
+      "codCegGrupo": 2304,
+      "nome": "Lavras",
+      "municipio": "Calcaia",
+      "uf": "CE",
+      "areaKm2": 4.52608476,
+      "areaHa": 452.608476,
+      "quantidadeUsinas": 8,
+      "potenciaOutorgadaKw": 201000.0,
+      "potenciaFiscalizadaKw": 201000.0,
+      "usinasGeradoras": [
+        "Lavras 1",
+        "Lavras 2",
+        "Lavras 3",
+        "Lavras 4",
+        "Lavras 5",
+        "Lavras 6",
+        "Lavras 7",
+        "Lavras 8"
+      ]
+    },
+    {
+      "id": "pb::2503",
+      "codCegGrupo": 2503,
+      "nome": "Santa Luzia",
+      "municipio": "Santa Luzia",
+      "uf": "PB",
+      "areaKm2": 7.18357479,
+      "areaHa": 718.357479,
+      "quantidadeUsinas": 5,
+      "potenciaOutorgadaKw": 250000.0,
+      "potenciaFiscalizadaKw": 250000.0,
+      "usinasGeradoras": [
+        "Santa Luzia 1",
+        "Santa Luzia 4",
+        "Santa Luzia V",
+        "Santa Luzia VII",
+        "Santa Luzia IX"
+      ]
+    },
+    {
+      "id": "ce::2305",
+      "codCegGrupo": 2305,
+      "nome": "Sol do Futuro",
+      "municipio": "Aquiraz",
+      "uf": "CE",
+      "areaKm2": 1.61789637,
+      "areaHa": 161.789637,
+      "quantidadeUsinas": 3,
+      "potenciaOutorgadaKw": 81000.0,
+      "potenciaFiscalizadaKw": 81000.0,
+      "usinasGeradoras": [
+        "Sol do Futuro I (Steelcons Sol do Futuro I)",
+        "Sol do Futuro II (Antiga Steelcons Sol do Futuro III)",
+        "Sol do Futuro III (Antiga Steelcons Sol do Futuro III)"
+      ]
+    },
+    {
+      "id": "ba::2901",
+      "codCegGrupo": 2901,
+      "nome": "Assurá",
+      "municipio": "Itaguaçu da Bahia",
+      "uf": "BA",
+      "areaKm2": 0.92299498,
+      "areaHa": 92.299498,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 30520.0,
+      "potenciaFiscalizadaKw": 30520.0,
+      "usinasGeradoras": [
+        "Assuruá"
+      ]
+    },
+    {
+      "id": "pb::2504",
+      "codCegGrupo": 2504,
+      "nome": "Malta",
+      "municipio": "Malta",
+      "uf": "PB",
+      "areaKm2": 0.68308595,
+      "areaHa": 68.308595,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 27200.0,
+      "potenciaFiscalizadaKw": 27200.0,
+      "usinasGeradoras": [
+        "Malta"
+      ]
+    },
+    {
+      "id": "ce::2306",
+      "codCegGrupo": 2306,
+      "nome": "Pitombeira",
+      "municipio": "Aracati",
+      "uf": "CE",
+      "areaKm2": 1.29450403,
+      "areaHa": 129.450403,
+      "quantidadeUsinas": 1,
+      "potenciaOutorgadaKw": 47250.0,
+      "potenciaFiscalizadaKw": 47250.0,
+      "usinasGeradoras": [
+        "Pitombeira"
+      ]
+    },
+    {
+      "id": "ba::2902",
+      "codCegGrupo": 2902,
+      "nome": "Bom Jesus da Lapa",
+      "municipio": "Bom Jesus da Lapa",
+      "uf": "BA",
+      "areaKm2": 4.23723095,
+      "areaHa": 423.723095,
+      "quantidadeUsinas": 6,
+      "potenciaOutorgadaKw": 160000.0,
+      "potenciaFiscalizadaKw": 160000.0,
+      "usinasGeradoras": [
+        "Bom Jesus da Lapa I",
+        "Bom Jesus da Lapa II",
+        "BJL 11",
+        "BJL 4",
+        "Lapa 3",
+        "Lapa 2"
+      ]
+    },
+    {
+      "id": "pb::2505",
+      "codCegGrupo": 2505,
+      "nome": "Rio do Peixe",
+      "municipio": "São João do Rio do Peixe",
+      "uf": "PB",
+      "areaKm2": 1.66468563,
+      "areaHa": 166.468563,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 68800.0,
+      "potenciaFiscalizadaKw": 68800.0,
+      "usinasGeradoras": [
+        "Rio do Peixe I",
+        "Rio do Peixe II"
+      ]
+    },
+    {
+      "id": "pb::2506",
+      "codCegGrupo": 2506,
+      "nome": "Luzia",
+      "municipio": "Santa Luzia",
+      "uf": "PB",
+      "areaKm2": 3.37211638,
+      "areaHa": 337.211638,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 117864.0,
+      "potenciaFiscalizadaKw": 117864.0,
+      "usinasGeradoras": [
+        "Luzia 2",
+        "Luzia 3"
+      ]
+    },
+    {
+      "id": "ce::2301",
+      "codCegGrupo": 2301,
+      "nome": "Serra do Mato",
+      "municipio": "Trairi",
+      "uf": "CE",
+      "areaKm2": 2.03945101,
+      "areaHa": 203.945101,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 101490.0,
+      "potenciaFiscalizadaKw": 101490.0,
+      "usinasGeradoras": [
+        "Serra do Mato III",
+        "Serra do Mato IV"
+      ]
+    },
+    {
+      "id": "ce::2302",
+      "codCegGrupo": 2302,
+      "nome": "Lins",
+      "municipio": "São Gonçalo do Amarante",
+      "uf": "CE",
+      "areaKm2": 3.39372083,
+      "areaHa": 339.372083,
+      "quantidadeUsinas": 2,
+      "potenciaOutorgadaKw": 182000.0,
+      "potenciaFiscalizadaKw": 182000.0,
+      "usinasGeradoras": [
+        "Lins 01",
+        "Lins 02"
+      ]
+    }
+  ]
+}

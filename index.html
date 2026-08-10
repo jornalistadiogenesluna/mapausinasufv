@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mapa interativo de usinas solares do Nordeste</title>
+  <meta name="description" content="Mapa interativo sobre a ocupacao territorial por usinas fotovoltaicas de grande porte no Nordeste.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="assets/mapa.css">
+</head>
+<body>
+  <div id="mapa-usinas-ne">
+    <div id="map"></div>
+    <aside id="painel-story" class="painel-story" aria-label="Abertura da reportagem">
+      <div class="story-cabecalho">Energia solar e território</div>
+      <h1 id="story-titulo" class="story-titulo"></h1>
+      <p id="story-subtitulo" class="story-subtitulo"></p>
+      <div id="story-corpo" class="story-corpo"></div>
+      <div id="story-dashboard" class="story-dashboard"></div>
+    </aside>
+    <aside id="painel" class="painel-usina" aria-live="polite">
+      <div class="painel-topo">
+        <h2 id="painel-titulo">Usina selecionada</h2>
+        <button id="fechar-painel" type="button" aria-label="Fechar" title="Fechar">×</button>
+      </div>
+      <div id="editorial-uf" class="painel-editorial-uf"></div>
+      <div id="painel-dados" class="painel-dados">
+        <div class="info-linha"><span id="label-nome">Nome</span><strong id="info-nome">-</strong></div>
+        <div class="info-linha"><span id="label-municipio">Município</span><strong id="info-municipio">-</strong></div>
+        <div class="info-linha"><span id="label-uf">UF</span><strong id="info-uf">-</strong></div>
+        <div class="info-linha"><span id="label-area">Área</span><strong id="info-area">-</strong></div>
+        <div id="dashboard"></div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="assets/mapa.js"></script>
+  <script src="assets/integracao.js"></script>
+</body>
+</html>
