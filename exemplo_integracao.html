@@ -3,56 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Exemplo de integracao do webmap</title>
+  <title>Teste de integração no Elementor</title>
   <style>
     html, body { margin: 0; background: #f3efe4; }
-    .reportagem-webmap {
-      position: relative;
-      width: 100%;
-      height: clamp(640px, 85svh, 900px);
-    }
-    .reportagem-webmap iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-    @media (max-width: 760px) {
-      .reportagem-webmap { height: 100svh; min-height: 520px; }
-    }
+    .webmap-usinas-ne { width: 100%; height: clamp(640px, 85svh, 900px); }
+    .webmap-usinas-ne iframe { display: block; width: 100%; height: 100%; border: 0; }
+    @media (max-width: 760px) { .webmap-usinas-ne { height: 100svh; min-height: 520px; } }
     @media (max-height: 560px) and (orientation: landscape) {
-      .reportagem-webmap { height: 100svh; min-height: 360px; }
+      .webmap-usinas-ne { height: 100svh; min-height: 360px; }
     }
   </style>
-  <script>
-    window.webmapUsinasNeState = {};
-    window.addEventListener('message', (event) => {
-      const data = event.data;
-      if (!data || data.source !== 'mapa-usinas-ne') return;
-      window.webmapUsinasNeState = { ...window.webmapUsinasNeState, ...data };
-      document.documentElement.dataset.mapaStatus = data.type;
-      if (data.level) document.documentElement.dataset.mapaNivel = String(data.level);
-    });
-    window.resetarMapaUsinasNe = () => {
-      const frame = document.getElementById('mapa-usinas-ne');
-      frame?.contentWindow?.postMessage(
-        { source: 'reportagem-host', type: 'mapa-usinas-ne:reset' },
-        window.location.origin
-      );
-    };
-  </script>
 </head>
 <body>
-  <main>
-    <section class="reportagem-webmap" aria-label="Mapa interativo das usinas solares do Nordeste">
-      <iframe
-        id="mapa-usinas-ne"
-        title="Mapa interativo das usinas solares do Nordeste"
-        src="./index.html"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </section>
-  </main>
+  <div class="webmap-usinas-ne">
+    <iframe
+      title="Mapa interativo das usinas solares do Nordeste"
+      src="./index.html"
+      loading="eager"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
 </body>
 </html>

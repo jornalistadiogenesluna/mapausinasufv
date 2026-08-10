@@ -1,7 +1,7 @@
 {
   "name": "Mapa interativo das usinas solares do Nordeste",
-  "version": "3.0.1",
-  "generatedAt": "2026-08-10T04:29:16.153294+00:00",
+  "version": "3.1.0",
+  "generatedAt": "2026-08-10T03:28:26.969473+00:00",
   "entrypoint": "index.html",
   "integration": "iframe",
   "sourceVersion": "v3-preservada",
@@ -42,249 +42,531 @@
   },
   "images": [
     {
-      "path": "assets/images/alex.jpg",
-      "credit": "Fonte: Canal Solar",
-      "sourceUrl": "https://canalsolar.com.br/wp-content/uploads/2022/10/31-10-22-canal-solar-omplexo-Alex-registra-geracao-de-760-GWh-durante-um-ano-de-operacao.jpg"
+      "complexo": "Angico",
+      "path": "assets/images/angico.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://pt.wikipedia.org/wiki/Usina_Solar_Angicos_I",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do complexo Angico/Malta."
     },
     {
-      "path": "assets/images/apodi.webp",
-      "credit": "Fonte: Pacto Energia, via G1",
-      "sourceUrl": "https://g1.globo.com/mg/triangulo-mineiro/especial-publicitario/pacto-energia/noticia/2021/03/16/economia-mercado-livre-permite-desconto-de-ate-30percent-nas-contas-de-energia-de-empresarios.ghtml"
-    },
-    {
-      "path": "assets/images/arapua.jpg",
-      "credit": "Foto: Kroma Energia, via MegaWhat",
-      "sourceUrl": "https://megawhat.uol.com.br/geracao/kroma-inicia-operacao-do-complexo-solar-arapua-no-ceara/"
-    },
-    {
-      "path": "assets/images/assuSol.jpg",
-      "credit": "Foto: Divulgação, via Tribuna do Norte",
-      "sourceUrl": "https://tribunadonorte.com.br/wp-content/uploads/2024/04/20240410_6EC1_FT_Divulgacao.jpg"
-    },
-    {
-      "path": "assets/images/babilonia1.webp",
-      "credit": "Fonte: LM Engenharia",
-      "sourceUrl": "https://www.lmeng.com.br/news/complexo-babilonia-como-a-geracao-hibrida-esta-moldando-o-futuro-da-energia-no-br"
-    },
-    {
-      "path": "assets/images/barreiras.jpeg",
-      "credit": "Fonte: Motrice Soluções em Energia",
-      "sourceUrl": "https://motricese.com.br/projeto/ufv-sertao-solar-barreiras"
-    },
-    {
-      "path": "assets/images/belmonte-bom-nome-brigida.jpeg",
-      "credit": "Fonte: Jornal do Sertão PE",
-      "sourceUrl": "https://jornaldosertaope.com.br/2021/07/09/maior-complexo-solar-do-brasil-e-inaugurado-no-sertao-de-pernambuco-com-investimentos-de-r-3-bilhoes/"
-    },
-    {
-      "path": "assets/images/bomJardim.jpeg",
-      "credit": "Fonte: Qair Brasil",
-      "sourceUrl": "https://www.brasil.qair.energy/wp-content/uploads/2026/03/IMG_8141-1200x800.jpeg"
-    },
-    {
-      "path": "assets/images/caldeiraoGrande.jpg",
-      "credit": "Foto: Francisco Gilásio / Rota 343",
-      "sourceUrl": "https://www.rota343.com.br/noticia/complexo-solar-caldeirao-grande-2-e-inaugurado-no-piaui/"
-    },
-    {
+      "complexo": "Coremas",
       "path": "assets/images/coremas.webp",
-      "credit": "Fonte: WEG",
-      "sourceUrl": "https://www.weg.net/institutional/BR/pt/news/produtos-e-solucoes/complexo-solar-de-coremas-e-inaugurado-na-paraiba"
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://jornaldaparaiba.com.br/politica/conversa-politica/impactos-socioambientais-parques-eolicos-usinas-solares-pb",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
     },
     {
-      "path": "assets/images/dunamis.webp",
-      "credit": "Fonte: Novo Notícias",
-      "sourceUrl": "https://novonoticias.com.br/complexo-solar-inicia-operacao-no-rn-e-vai-abastecer-fabricas-da-mercedes-benz-no-brasil/"
+      "complexo": "Brígida",
+      "path": "assets/images/brigida.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.energiasolarshop.com.br/post/solatio-inaugura-primeira-usina-de-complexo-de-810-mwp-1",
+      "matchType": "nominal",
+      "note": "Fotografia identificada como Usina Solar Brígida, em São José do Belmonte."
     },
     {
-      "path": "assets/images/floresta.jpg",
-      "credit": "Fonte: Costa Branca News",
-      "sourceUrl": "https://costabrancanews.com/complexo-fotovoltaico-floresta-atua-de-forma-continua-com-programas-ambientais-para-um-desenvolvimento-sustentavel/"
+      "complexo": "Belmonte",
+      "path": "assets/images/belmonte.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://atk.ind.br/obras/cobra-brasil-montagem-eletro-civil-de-300mw-da-ufv-belmonte-i-ii/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
     },
     {
-      "path": "assets/images/futura.webp",
-      "credit": "Foto: Eneva / Divulgação, via Canal Solar",
-      "sourceUrl": "https://canalsolar.com.br/eneva-comercializa-toda-energia-complexo-solar-futura/"
-    },
-    {
-      "path": "assets/images/horizontes.jpg",
-      "credit": "Fonte: CRBio-08",
-      "sourceUrl": "https://crbio08.gov.br/wp-content/uploads/2018/03/parque-solar.jpg"
-    },
-    {
-      "path": "assets/images/irece.jpeg",
-      "credit": "Fonte: LM Engenharia",
-      "sourceUrl": "https://www.lmeng.com.br/projects/ufv-irece/"
-    },
-    {
-      "path": "assets/images/lagoinha.jpg",
-      "credit": "Fonte: Revista Nordeste",
-      "sourceUrl": "https://revistane.com.br/2025/06/30/investimentos-chineses-avancam-no-nordeste-com-energia-limpa-industria-e-infraestrutura/"
-    },
-    {
-      "path": "assets/images/lavras.webp",
-      "credit": "Fonte: Diário do Nordeste",
-      "sourceUrl": "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/egidio-serpa/chegam-da-china-619-mil-placas-solares-para-usina-de-caucaia-1.3179340"
-    },
-    {
-      "path": "assets/images/lins.webp",
-      "credit": "Foto: Grupo Cobra IS / Divulgação, via MegaWhat",
-      "sourceUrl": "https://uploads.megawhat.energy/uploads/2026/05/Complexo-solar-Lins-Credito-grupo-Cobra-IS-Divulgacao-1320x742.jpg"
-    },
-    {
+      "complexo": "Luiz Gonzaga",
       "path": "assets/images/luizGonzaga.webp",
-      "credit": "Foto: Recurrent Energy / Divulgação, via Canal Solar",
-      "sourceUrl": "https://canalsolar.com.br/en/spic-brasil-acquires-majority-stake-in-luiz-gonzaga-solar-complex/"
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://canalsolar.com.br/spic-brasil-adquire-participacao-majoritaria-complexo-solar-luiz-gonzaga/",
+      "matchType": "nominal",
+      "note": "Fonte nominal confirmada por pesquisa web."
     },
     {
-      "path": "assets/images/marangatu.jpg",
-      "credit": "Fonte: B&N Engenharia",
-      "sourceUrl": "https://www.bnengenharia.com.br/obras/ufv-marangatu-445-mw"
+      "complexo": "Solar Salgueiro",
+      "path": "assets/images/salgueiro.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://mvpower.com.br/ufv-salgueiro-pe/",
+      "matchType": "nominal",
+      "note": "Fotografia nominal da UFV Salgueiro."
     },
     {
-      "path": "assets/images/maravilha.jpg",
-      "credit": "Fonte: Atiaia Renováveis",
-      "sourceUrl": "https://atiaiarenovaveis.com.br/usinas-solares-maravilhas-i-e-ii-ja-estao-em-operacao/"
-    },
-    {
-      "path": "assets/images/mauriti.jpg",
-      "credit": "Fonte: PowerChina",
-      "sourceUrl": "https://en.powerchina.cn/2025-09/15/c_828999.htm"
-    },
-    {
-      "path": "assets/images/mendubim.webp",
-      "credit": "Foto: Scatec / Divulgação, via Canal Solar",
-      "sourceUrl": "https://canalsolar.com.br/complexo-solar-mendubim-inaugurado-assu/"
-    },
-    {
-      "path": "assets/images/milagres.jpg",
-      "credit": "Fonte: Lightsource bp",
-      "sourceUrl": "https://lightsourcebp.com/project/milagres-solar/"
-    },
-    {
-      "path": "assets/images/novaOlinda.jpg",
-      "credit": "Fonte: Seplan-PI",
-      "sourceUrl": "http://antigo.seplan.pi.gov.br/noticia.php?id=690"
-    },
-    {
-      "path": "assets/images/painel-fotovoltaico-luzia.png",
-      "credit": "Fonte: Iberdrola",
-      "sourceUrl": "https://www.iberdrola.com/quem-somos/geracao-eletrica-power/energia-solar-fotovoltaica/usina-fotovoltaica-luzia"
-    },
-    {
-      "path": "assets/images/panati.webp",
-      "credit": "Fonte: CicloVivo",
-      "sourceUrl": "https://ciclovivo.com.br/wp-content/uploads/2024/06/ceara-piaui-energia-solar-ciclovivo1-1024x768.jpeg"
-    },
-    {
-      "path": "assets/images/panorama.png",
-      "credit": "Fonte: Cenário Energia",
-      "sourceUrl": "https://i0.wp.com/cenarioenergia.com.br/wp-content/uploads/2025/09/IMG-20250923-WA0010.jpg?w=768&ssl=1"
-    },
-    {
-      "path": "assets/images/ribeiroGoncalves.jpeg",
-      "credit": "Fonte: pv magazine Brasil / Echoenergia",
-      "sourceUrl": "https://www.pv-magazine-brasil.com/wp-content/uploads/2024/06/echoenergia.jpeg"
-    },
-    {
-      "path": "assets/images/saoGoncalo.jpeg",
-      "credit": "Fonte: Enel Green Power",
-      "sourceUrl": "https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-solar-sao-goncalo"
-    },
-    {
-      "path": "assets/images/saoJoao.jpg",
-      "credit": "Fonte: Portal Sanjoanense",
-      "sourceUrl": "https://www.portalsanjoanense.com.br/images/noticias/223/567d425525d88f4b362649543437b70a.jpg"
-    },
-    {
-      "path": "assets/images/saoJoaoDoRioDoPeixe.avif",
-      "credit": "Fonte: São João do Rio do Peixe / Wixstatic",
-      "sourceUrl": "https://static.wixstatic.com/media/409741_aa7a9644df4d40b69005e92aeb955619~mv2.png"
-    },
-    {
-      "path": "assets/images/saoPedro.jpg",
-      "credit": "Fonte: Atlas Renewable Energy",
-      "sourceUrl": "https://es.atlasrenewableenergy.com/wp-content/uploads/atlas-renewable-energy-sao-pedro-solar-plant-bahia-brazil-01-1030x646.jpg"
-    },
-    {
-      "path": "assets/images/saoPedroPaulo.webp",
-      "credit": "Fonte: Kroma Energia",
-      "sourceUrl": "https://www.kromaenergia.com.br/wp-content/uploads/2024/02/5-1024x538.webp"
-    },
-    {
-      "path": "assets/images/serraDoMato.jpg",
-      "credit": "Fonte: Qair Brasil",
-      "sourceUrl": "https://www.brasil.qair.energy/blog/energizacao-complexo-solar-serra-do-mato/"
-    },
-    {
-      "path": "assets/images/serraDoMel.webp",
-      "credit": "Fonte: eixos",
-      "sourceUrl": "https://uploads.eixos.com.br/2023/06/serra-do-mel-voltalia-usina-solar-fotovoltaica2-768x383.png"
-    },
-    {
+      "complexo": "Serrita",
       "path": "assets/images/serrita.jpg",
-      "credit": "Imagem: Nextracker, via pv magazine Brasil",
-      "sourceUrl": "https://www.pv-magazine-brasil.com/2025/04/29/complexo-solar-serrita-reduz-capex-em-r-1-milhao-com-nova-tecnologia-da-nextracker/"
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://pt.linkedin.com/posts/statkraft_statkraftbrasil-energiarenov%C3%A1vel-energiasolar-activity-7275212778431205376-QK9L",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
     },
     {
+      "complexo": "Pajeú",
+      "path": "assets/images/saoPedroPaulo.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.kromaenergia.com.br/wp-content/uploads/2024/02/5-1024x538.webp",
+      "matchType": "representativa",
+      "note": "A feição não possui usina SIGA associada; imagem de usina fotovoltaica no município de Flores/PE."
+    },
+    {
+      "complexo": "Xaxado",
+      "path": "assets/images/xaxado.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.joaozinhoteles.com.br/regional/maior-parque-solar-do-brasil-sera-construido-em-sao-jose-do-belmonte-no-sertao-de-pe/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Ciranda",
+      "path": "assets/images/ciranda.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.vinci.com/publi/vinci/a11y/2023/vinci-urd/article/94/",
+      "matchType": "contextual",
+      "note": "Imagem do polo fotovoltaico de São José do Belmonte; atribuição contextual para Ciranda."
+    },
+    {
+      "complexo": "Bom Nome",
+      "path": "assets/images/bomNome.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.comerc.com.br/usinas/bon-nome",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Sol do Agreste",
       "path": "assets/images/solDoAgreste.jpg",
-      "credit": "Imagem: Atiaia Renováveis, via pv magazine Brasil",
-      "sourceUrl": "https://www.pv-magazine-brasil.com/2026/03/17/atiaia-inicia-operacao-de-complexo-solar-de-1698-mw-em-pernambuco/"
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://brasilenergia.com.br/energia/solar/complexo-sol-do-agreste-agrega-170-mw-ao-sistema-eletrico",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
     },
     {
-      "path": "assets/images/solDoFuturo.jpg",
-      "credit": "Fonte: Atlas Renewable Energy",
-      "sourceUrl": "https://es.atlasrenewableenergy.com/wp-content/uploads/sol-do-futuro-solar-plant-1-1030x771.jpg"
+      "complexo": "Sertão",
+      "path": "assets/images/saoJoao.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.portalsanjoanense.com.br/images/noticias/223/567d425525d88f4b362649543437b70a.jpg",
+      "matchType": "contextual",
+      "note": "Imagem regional do par de projetos Sertão I/Sobral I documentado pela ANEEL."
     },
     {
+      "complexo": "São Pedro e Paulo",
+      "path": "assets/images/saoPedroPaulo.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.kromaenergia.com.br/wp-content/uploads/2024/02/5-1024x538.webp",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do parque São Pedro e Paulo."
+    },
+    {
+      "complexo": "São Gonçalo",
+      "path": "assets/images/saoGoncalo.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-solar-sao-goncalo",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do complexo São Gonçalo."
+    },
+    {
+      "complexo": "Maravilhas",
+      "path": "assets/images/maravilhas.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://atiaiarenovaveis.com.br/usinas-solares-maravilhas-i-e-ii-ja-estao-em-operacao/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Sol do Piauí",
       "path": "assets/images/solDoPiaui.webp",
-      "credit": "Fonte: Brasil Energia",
-      "sourceUrl": "https://brasilenergia.com.br/energia/usina-solar-sol-do-piaui-entra-em-operacao-comercial/"
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://brasilenergia.com.br/energia/usina-solar-sol-do-piaui-entra-em-operacao-comercial/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
     },
     {
-      "path": "assets/images/solDoSertao.jpg",
-      "credit": "Foto: SETA / Divulgação, via Canal Solar",
-      "sourceUrl": "https://canalsolar.com.br/complexo-solar-sol-do-sertao-vai-gerar-4-mil-empregos-na-bahia/"
+      "complexo": "Fazenda Esmeralda",
+      "path": "assets/images/fazendaEsmeralda.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://nobilesol.com.br/projeto/ufv-esmeraldas-i/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Panorama",
+      "path": "assets/images/panorama.png",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.iscobra.com/en/project/panorama-photovoltaic-plant/",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do Complexo Panorama."
+    },
+    {
+      "complexo": "Ribeiro Gonçalves",
+      "path": "assets/images/ribeiroGoncalves.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.pv-magazine-brasil.com/wp-content/uploads/2024/06/echoenergia.jpeg",
+      "matchType": "nominal",
+      "note": "Fotografia nominal fornecida no acervo."
+    },
+    {
+      "complexo": "Caldeirão Grande",
+      "path": "assets/images/caldeiraoGrande.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.rota343.com.br/noticia/complexo-solar-caldeirao-grande-2-e-inaugurado-no-piaui/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "São João do Piaui",
+      "path": "assets/images/saoJoao.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.portalsanjoanense.com.br/images/noticias/223/567d425525d88f4b362649543437b70a.jpg",
+      "matchType": "nominal",
+      "note": "Fotografia vinculada à usina em São João do Piauí."
+    },
+    {
+      "complexo": "Sobral",
+      "path": "assets/images/saoJoao.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.portalsanjoanense.com.br/images/noticias/223/567d425525d88f4b362649543437b70a.jpg",
+      "matchType": "contextual",
+      "note": "Imagem regional do projeto Sobral I em São João do Piauí."
+    },
+    {
+      "complexo": "Nova Olinda",
+      "path": "assets/images/novaOlinda.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "http://antigo.seplan.pi.gov.br/noticia.php?id=690",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Serra do Mel",
+      "path": "assets/images/serraDoMel.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://uploads.eixos.com.br/2023/06/serra-do-mel-voltalia-usina-solar-fotovoltaica2-768x383.png",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Marangatu",
+      "path": "assets/images/marangatu.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.bnengenharia.com.br/obras/ufv-marangatu-445-mw",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Dunamis",
+      "path": "assets/images/dunamis.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://novonoticias.com.br/complexo-solar-inicia-operacao-no-rn-e-vai-abastecer-fabricas-da-mercedes-benz-no-brasil/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Floresta",
+      "path": "assets/images/floresta.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://costabrancanews.com/wp-content/uploads/2020/11/thumbnail_DJI_0102.jpg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Mendubim",
+      "path": "assets/images/mendubim.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://canalsolar.com.br/wp-content/uploads/2024/04/complexo-solar-mendubim-inaugurado-jpg.webp",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Monte Verde",
+      "path": "assets/images/monteVerde.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://edp.com/pt/media/historias-edp/novos-parques-hibridos-entram-em-operacao",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Assú",
+      "path": "assets/images/assu.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.engie.com.br/usinas/usina-fotovoltaica-assu-v/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Panati",
+      "path": "assets/images/panati.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://ciclovivo.com.br/wp-content/uploads/2024/06/ceara-piaui-energia-solar-ciclovivo1-1024x768.jpeg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Assú Sol",
+      "path": "assets/images/assuSol.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://tribunadonorte.com.br/wp-content/uploads/2024/04/20240410_6EC1_FT_Divulgacao.jpg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Bom Jardim",
+      "path": "assets/images/bomJardim.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.brasil.qair.energy/wp-content/uploads/2026/03/IMG_8141-1200x800.jpeg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Solar Irecê",
+      "path": "assets/images/irece.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.lmeng.com.br/projects/ufv-irece/",
+      "matchType": "nominal",
+      "note": "Fotografia nominal da UFV Irecê."
+    },
+    {
+      "complexo": "Milagres",
+      "path": "assets/images/milagres.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://lightsourcebp.com/project/milagres-solar/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Solar Sobrado",
+      "path": "assets/images/solarSobrado.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.google.com/search?q=solar+sobrado+casa+nova+ba+energia+solar+fotovoltaica+ufv&sca_esv=c22c990d6aa7f981&sxsrf=APpeQnsdWFxntyYtxoYA-bJRxWgJU0UwfQ%3A1786396586234&ei=qj96atLrDdqI5OUPx6LWkQY&biw=1920&bih=991&ved=0ahUKEwjS6Mzv_ZaWAxVaBLkGHUeRNWIQ4dUDCBA&uact=5&oq=solar+sobrado+casa+nova+ba+energia+solar+fotovoltaica+ufv&gs_lp=Egxnd3Mtd2l6LXNlcnAiOXNvbGFyIHNvYnJhZG8gY2FzYSBub3ZhIGJhIGVuZXJnaWEgc29sYXIgZm90b3ZvbHRhaWNhIHVmdjIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wVIkzRQ3Q9YtTBwAXgAkAEAmAHkAaABvRmqAQUwLjguOLgBA8gBAPgBAZgCCKACnwvCAggQABjvBRiwA8ICCBAhGKABGMMEmAMAiAYBkAYEkgcFMS4zLjSgB7EysgcFMC4zLjS4B5wLwgcDMC44yAcRgAgB&sclient=gws-wiz-serp#lpg=cid:CgIgAQ%3D%3D,ik:CAoSF0NJSE0wb2dLRUlDQWdJRGs3LV9PMGdF",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Mauriti",
+      "path": "assets/images/mauriti.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://en.powerchina.cn/2025-09/15/c_828999.htm",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Verde Vale",
+      "path": "assets/images/verdeVale.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://atiaiarenovaveis.com.br/nossas-usinas/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Sol de Brotas",
+      "path": "assets/images/solDeBrotas.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.pv-magazine-latam.com/2026/04/06/autorizan-en-brasil-la-primera-unidad-de-almacenamiento-en-baterias-vinculada-a-una-central-solar/",
+      "matchType": "nominal",
+      "note": "Fotografia do Complexo Sol de Brotas, crédito Statkraft."
+    },
+    {
+      "complexo": "São Pedro",
+      "path": "assets/images/saoPedro.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://es.atlasrenewableenergy.com/wp-content/uploads/atlas-renewable-energy-sao-pedro-solar-plant-bahia-brazil-01-1030x646.jpg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Serra da Babilônia",
+      "path": "assets/images/babilonia.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.datocms-assets.com/154362/1761925133-2025_10_31_babilonia_16.png?fm=webp&h=600&w=1200&q=90",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do complexo Babilônia."
+    },
+    {
+      "complexo": "Sertão Solar",
+      "path": "assets/images/sertaoSolarBarreiras.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://motricese.com.br/projeto/ufv-sertao-solar-barreiras",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do Sertão Solar Barreiras."
+    },
+    {
+      "complexo": "Sol do Sertão",
+      "path": "assets/images/solDoSertao.avif",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.solkaengenharia.com.br/c%C3%B3pia-ce-ventos-da-bahia-fase-iii",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Futura",
+      "path": "assets/images/futura.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://eneva.com.br/wp-content/uploads/2025/06/RI_Eneva2024_v1605_ENG.pdf",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Arapuá",
+      "path": "assets/images/arapua.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://movimentoeconomico.com.br/economia/energia/2026/01/22/complexo-solar-arapua-inicia-testes-e-kroma-ultrapassa-500-mwp-em-ativos/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Horizonte",
+      "path": "assets/images/horizontes.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://crbio08.gov.br/wp-content/uploads/2018/03/parque-solar.jpg",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do parque Horizonte."
+    },
+    {
+      "complexo": "Lagoinha",
+      "path": "assets/images/lagoinha.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://revistane.com.br/2025/06/30/investimentos-chineses-avancam-no-nordeste-com-energia-limpa-industria-e-infraestrutura/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Apodi",
+      "path": "assets/images/apodi.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://g1.globo.com/mg/triangulo-mineiro/especial-publicitario/pacto-energia/noticia/2021/03/16/economia-mercado-livre-permite-desconto-de-ate-30percent-nas-contas-de-energia-de-empresarios.ghtml",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Ituverava",
+      "path": "assets/images/ituverava.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.enelgreenpower.com/pt/nossos-projetos/operativos/parque-solar-ituverava",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Alex",
+      "path": "assets/images/alex.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://canalsolar.com.br/wp-content/uploads/2022/10/31-10-22-canal-solar-omplexo-Alex-registra-geracao-de-760-GWh-durante-um-ano-de-operacao.jpg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Juazeiro",
+      "path": "assets/images/juazeiro.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://motricese.com.br/projeto/ufv-juazeiro",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Lavras",
+      "path": "assets/images/lavras.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/egidio-serpa/chegam-da-china-619-mil-placas-solares-para-usina-de-caucaia-1.3179340",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Santa Luzia",
+      "path": "assets/images/santaLuzia.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.neoenergia.com/energia-solar/complexo-solar-luzia",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Sol do Futuro",
+      "path": "assets/images/solDoFuturo.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://es.atlasrenewableenergy.com/wp-content/uploads/sol-do-futuro-solar-plant-1-1030x771.jpg",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Assurá",
+      "path": "assets/images/assura.jpeg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://atiaiarenovaveis.com.br/nossas-usinas/",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do complexo Assurá."
+    },
+    {
+      "complexo": "Malta",
+      "path": "assets/images/malta.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://pt.wikipedia.org/wiki/Usina_Solar_Malta",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Pitombeira",
+      "path": "assets/images/pitombeira.png",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://ufvpitombeira.com.br/sustentabilidade/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Bom Jesus da Lapa",
+      "path": "assets/images/lapa.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=56006579",
+      "matchType": "nominal",
+      "note": "Imagem do Complexo Solar Lapa/Bom Jesus da Lapa."
+    },
+    {
+      "complexo": "Rio do Peixe",
+      "path": "assets/images/saoJoaoDoRioDoPeixe.avif",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://static.wixstatic.com/media/409741_aa7a9644df4d40b69005e92aeb955619~mv2.png/v1/fill/w_781,h_439,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S%C3%A3o%20Jo%C3%A3o%20do%20Rio%20do%20Peixe%20(PB).png",
+      "matchType": "nominal",
+      "note": "Fotografia nominal de São João do Rio do Peixe."
+    },
+    {
+      "complexo": "Luzia",
+      "path": "assets/images/luzia.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://canalsolar.com.br/complexo-35-milhoes-paineis-solares-paraiba/",
+      "matchType": "nominal",
+      "note": "Fotografia nominal do Complexo Luzia."
+    },
+    {
+      "complexo": "Serra do Mato",
+      "path": "assets/images/serraDoMato.jpg",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.brasil.qair.energy/blog/energizacao-complexo-solar-serra-do-mato/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
+    },
+    {
+      "complexo": "Lins",
+      "path": "assets/images/lins.webp",
+      "credit": "Fonte da imagem",
+      "sourceUrl": "https://www.iscobra.com/en/project/lins-photovoltaic-plant/",
+      "matchType": "nominal",
+      "note": "Correspondência nominal entre feição, arquivo e fonte do acervo."
     }
   ],
   "externalHosts": [
-    "atiaiarenovaveis.com.br",
     "brasilenergia.com.br",
     "canalsolar.com.br",
-    "ciclovivo.com.br",
+    "cidadeverde.com",
     "costabrancanews.com",
     "crbio08.gov.br",
-    "diariodonordeste.verdesmares.com.br",
-    "en.powerchina.cn",
-    "es.atlasrenewableenergy.com",
     "fonts.googleapis.com",
     "fonts.gstatic.com",
-    "g1.globo.com",
-    "i0.wp.com",
     "images.unsplash.com",
-    "jornaldosertaope.com.br",
-    "lightsourcebp.com",
-    "megawhat.uol.com.br",
-    "motricese.com.br",
     "mt1.google.com",
-    "novonoticias.com.br",
     "pt.wikipedia.org",
-    "revistane.com.br",
     "static.wixstatic.com",
     "tribunadonorte.com.br",
     "unpkg.com",
     "unsplash.com",
     "upload.wikimedia.org",
-    "uploads.eixos.com.br",
     "uploads.megawhat.energy",
     "www.bnengenharia.com.br",
-    "www.brasil.qair.energy",
     "www.enel.com.br",
-    "www.enelgreenpower.com",
     "www.iberdrola.com",
-    "www.kromaenergia.com.br",
     "www.lmeng.com.br",
-    "www.portalsanjoanense.com.br",
     "www.pv-magazine-brasil.com",
     "www.rota343.com.br",
     "www.weg.net"
@@ -292,7 +574,7 @@
   "sourceFiles": [
     {
       "path": "geopackage/gerar_pacote_webmap_final.py",
-      "sha256": "5229a8aead097f861d4b697c3d6ce31a7ffa798e0c6837d43eaf0a79acebc447"
+      "sha256": "044af506586d68150d020f214caf6805191490df2f9d33fed7e62f1cf342b74c"
     },
     {
       "path": "geopackage/gerar_mapa_interativo_html_v3.py",
@@ -332,7 +614,7 @@
     },
     {
       "path": "fontesDasImagens.txt",
-      "sha256": "61810e779f36e5bcaa193f9d6374597b0212d868557cb5de6e0ca411b44fc315"
+      "sha256": "a00fda13a686e5107fd201e14b8888f60be99bf08bec9b1dd0f3f949e6e57a8d"
     }
   ]
 }

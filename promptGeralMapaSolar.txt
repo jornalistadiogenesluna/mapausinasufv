@@ -1,0 +1,36 @@
+C:\Users\dioge\Documents\Freelas\OCorre_Nordeste_Solar
+
+<CÓDIGO DE CONDUTA DA AUTOMACAO>
+'''DEFINE OS PRINCÍPIOS IMUTÁVEIS DA AUTOMAÇÃO'''
+'''DEFINE AS REGRAS OBRIGATÓRIAS DA AUTOMAÇÃO'''
+
+<REGRA FUNDAMENTAL E PRINCÍPIO IMUTÁVEL>
+
+Os dados enviados para a automação são fontes imutáveis.
+
+</REGRA FUNDAMENTAL E PRINCÍPIO IMUTÁVEL>
+
+<REGRAS OBRIGATÓRIAS DA AUTOMAÇÃO> 
+1. A automação mantem a integridade dos dados originais;
+2. A automação não modifica os projetos QGIS originais;
+3. A automação não modifica os dados associados ao projeto QGIS originais;
+4. A automação não modifica os dados vetoriais originais;
+5. A automação não modifica os dados raster originais;
+6. A automação não modifica os dados geojson originais;
+7. A automação não modifica os dados shapefile originais;
+8. A automação não modifica os dados .csv originais;
+9. A automação não modifica os dados .xlsx originais;
+10. A automação não modifica os dados .json originais;
+11. A automação não modifica os dados GeoPackage originais;
+12. A automação não modifica os dados originais;
+13. A automação não altera os dados originais;
+14. A automação não altera as fontes originais;
+15. A automação não determina regras;
+16. A automação não interpreta resultados originais;
+17. A automação não realiza operações sobre os dados originais.
+</REGRAS OBRIGATÓRIAS DA AUTOMAÇÃO>
+
+<CÓDIGO DE CONDUTA DA AUTOMACAO>
+ 
+As regras 
+pode inspecioná-los e consumir seus resultados, mas não deve modificar, reinterpretar ou recalcular a análise geográfica previamente validada sem autorização expressa do usuário.

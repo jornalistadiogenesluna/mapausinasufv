@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Diagnóstico do webmap</title>
+  <style>body{font:16px/1.5 system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px}li{margin:.5rem 0}.ok{color:#08752d}.erro{color:#b42318}</style>
+</head>
+<body>
+  <h1>Diagnóstico do webmap</h1>
+  <p>Abra este arquivo pela URL pública do servidor. Todos os itens locais devem ficar verdes.</p>
+  <ol id="resultado"></ol>
+  <p><a href="./index.html">Abrir o mapa diretamente</a></p>
+  <script>
+    const arquivos = ['index.html','assets/mapa.css','assets/mapa.js','assets/integracao.js','assets/images/coremas.webp'];
+    const lista = document.getElementById('resultado');
+    Promise.all(arquivos.map(async arquivo => {
+      const item = document.createElement('li');
+      try {
+        const resposta = await fetch('./' + arquivo, { cache: 'no-store' });
+        item.className = resposta.ok ? 'ok' : 'erro';
+        item.textContent = `${resposta.ok ? 'OK' : 'ERRO'} — ${arquivo} (HTTP ${resposta.status})`;
+      } catch (erro) {
+        item.className = 'erro';
+        item.textContent = `ERRO — ${arquivo}: ${erro.message}`;
+      }
+      lista.appendChild(item);
+    }));
+  </script>
+</body>
+</html>
