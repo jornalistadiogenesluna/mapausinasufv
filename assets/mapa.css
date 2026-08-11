@@ -167,6 +167,19 @@
       padding-top: 12px;
       border-top: 2px solid rgba(138, 79, 50, 0.66);
     }
+    .story-fonte-dados {
+      margin: 12px 0 0;
+      padding-top: 9px;
+      border-top: 1px solid rgba(138, 79, 50, 0.28);
+      font-size: 10px;
+      line-height: 1.35;
+      color: var(--carvao);
+    }
+    .story-fonte-dados a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
     .story-chart {
       min-width: 0;
       margin: 0;
