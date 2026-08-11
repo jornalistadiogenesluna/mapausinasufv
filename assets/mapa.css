@@ -474,7 +474,6 @@
   #mapa-usinas-ne {
     height: 100vh;
     height: 100svh;
-    height: 100dvh;
   }
   .leaflet-control-zoom a {
     width: 40px;
@@ -494,6 +493,15 @@
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
   }
+  .painel-story.tem-continuidade,
+  .painel-usina.tem-continuidade {
+    background-image:
+      linear-gradient(to bottom, transparent, rgba(243, 239, 228, 0.98)),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cpath d='M4 3l10 8L24 3' fill='none' stroke='%238a4f32' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center bottom, center calc(100% - 8px);
+    background-size: 100% 52px, 28px 14px;
+  }
   .painel-story {
     max-height: min(54dvh, 560px);
     padding: 18px;
@@ -503,12 +511,27 @@
   .painel-usina.detalhe {
     width: auto;
     height: auto;
-    max-height: min(58dvh, 600px);
+    max-height: calc(100svh - 24px - env(safe-area-inset-bottom));
     padding: 16px;
     overflow: auto;
   }
   .painel-usina.detalhe {
-    max-height: min(62dvh, 640px);
+    max-height: calc(100svh - 24px - env(safe-area-inset-bottom));
+  }
+  .painel-usina.uf.visivel {
+    display: flex;
+    flex-direction: column;
+  }
+  .painel-usina.uf .painel-topo {
+    order: 0;
+  }
+  .painel-usina.uf .painel-dados {
+    order: 1;
+  }
+  .painel-usina.uf .painel-editorial-uf {
+    order: 2;
+    margin-top: 16px;
+    margin-bottom: 0;
   }
   .story-toggle,
   .painel-toggle {

@@ -16,6 +16,20 @@
     return painelStory && !painelStory.classList.contains('oculto') ? 1 : 1;
   }
 
+  function atualizarIndicadorContinuidade(elemento) {
+    if (!elemento) return;
+    const interfaceMobile = window.matchMedia('(max-width: 760px)').matches;
+    const recolhido = elemento.classList.contains('painel-story-recolhido')
+      || elemento.classList.contains('painel-recolhido');
+    const restante = elemento.scrollHeight - elemento.clientHeight - elemento.scrollTop;
+    elemento.classList.toggle('tem-continuidade', interfaceMobile && !recolhido && restante > 6);
+  }
+
+  function atualizarIndicadoresContinuidade() {
+    atualizarIndicadorContinuidade(document.getElementById('painel-story'));
+    atualizarIndicadorContinuidade(document.getElementById('painel'));
+  }
+
   function enviar(type, detail = {}) {
     if (window.parent === window) return;
     window.parent.postMessage({ source: SOURCE, type, ...detail }, parentOrigin);
@@ -34,6 +48,7 @@
       ultimaAltura = height;
       enviar('mapa-usinas-ne:resize', { height });
     }
+    atualizarIndicadoresContinuidade();
   }
 
   function origemPermitida(event) {
@@ -103,6 +118,9 @@
 
   configurarPainelEditorialMobile();
   configurarPainelUsinaMobile();
+
+  document.getElementById('painel-story')?.addEventListener('scroll', atualizarIndicadoresContinuidade, { passive: true });
+  document.getElementById('painel')?.addEventListener('scroll', atualizarIndicadoresContinuidade, { passive: true });
 
   const estadoTimer = window.setInterval(informarEstado, 250);
   window.addEventListener('resize', informarEstado, { passive: true });
