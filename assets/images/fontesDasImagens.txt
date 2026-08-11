@@ -1,70 +1,67 @@
 PI
 
-novaOlinda - PI: http://antigo.seplan.pi.gov.br/noticia.php?id=690 - nomeDaImagem . formato de imagem do arquivo.
-solaris - https://portalopiaui.com/noticia/9417/miniusina-de-energia-solar-construida-em-campo-maior-por-ppp-finaliza-instalacao-de-placas-e-sera-en.html
-solDoPiaui - https://brasilenergia.com.br/energia/usina-solar-sol-do-piaui-entra-em-operacao-comercial/
-lins - https://uploads.megawhat.energy/uploads/2026/05/Complexo-solar-Lins-Credito-grupo-Cobra-IS-Divulgacao-1320x742.jpg - lins - polígono errado - faltam dados no painel
-ribeiroGoncalves - https://www.pv-magazine-brasil.com/wp-content/uploads/2024/06/echoenergia.jpeg
-marangatu - https://www.bnengenharia.com.br/obras/ufv-marangatu-445-mw
-saoGoncalo - https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-solar-sao-goncalo
-panorama - https://i0.wp.com/cenarioenergia.com.br/wp-content/uploads/2025/09/IMG-20250923-WA0010.jpg?w=768&ssl=1
-caldeiraoGrande - https://www.rota343.com.br/noticia/complexo-solar-caldeirao-grande-2-e-inaugurado-no-piaui/
-saoJoao - https://www.portalsanjoanense.com.br/images/noticias/223/567d425525d88f4b362649543437b70a.jpg
+novaOlinda - PI: http://antigo.seplan.pi.gov.br/noticia.php?id=690 - novaOlinda.jpg 
+solDoPiaui - https://brasilenergia.com.br/energia/usina-solar-sol-do-piaui-entra-em-operacao-comercial/ - solDoPiaui.webp
+ribeiroGoncalves - https://www.pv-magazine-brasil.com/wp-content/uploads/2024/06/echoenergia.jpeg - ribeiroGoncalves.jpeg
+marangatu - https://www.bnengenharia.com.br/obras/ufv-marangatu-445-mw - marangatu.jpg
+saoGoncalo - https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-solar-sao-goncalo - saoGoncalo.jpeg
+panorama - https://i0.wp.com/cenarioenergia.com.br/wp-content/uploads/2025/09/IMG-20250923-WA0010.jpg?w=768&ssl=1 - panorama.png
+caldeiraoGrande - https://www.rota343.com.br/noticia/complexo-solar-caldeirao-grande-2-e-inaugurado-no-piaui/ - caldeiraoGrande.jpg
+saoJoao - https://www.portalsanjoanense.com.br/images/noticias/223/567d425525d88f4b362649543437b70a.jpg - saoJoao.jpg
 
 CE
 
-alex - https://canalsolar.com.br/wp-content/uploads/2022/10/31-10-22-canal-solar-omplexo-Alex-registra-geracao-de-760-GWh-durante-um-ano-de-operacao.jpg
-serraDoMato - https://www.brasil.qair.energy/blog/energizacao-complexo-solar-serra-do-mato/ - verificar quantidade de usinas
-pecem - sem dados
-lavras - https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/egidio-serpa/chegam-da-china-619-mil-placas-solares-para-usina-de-caucaia-1.3179340
-solDoFuturo - https://es.atlasrenewableenergy.com/wp-content/uploads/sol-do-futuro-solar-plant-1-1030x771.jpg 
-pitombeira - 
-lagoinha - https://revistane.com.br/2025/06/30/investimentos-chineses-avancam-no-nordeste-com-energia-limpa-industria-e-infraestrutura/
-arapua -
-apodi - https://g1.globo.com/mg/triangulo-mineiro/especial-publicitario/pacto-energia/noticia/2021/03/16/economia-mercado-livre-permite-desconto-de-ate-30percent-nas-contas-de-energia-de-empresarios.ghtml
-panati - https://ciclovivo.com.br/wp-content/uploads/2024/06/ceara-piaui-energia-solar-ciclovivo1-1024x768.jpeg
-bomJardim - https://www.brasil.qair.energy/wp-content/uploads/2026/03/IMG_8141-1200x800.jpeg
+alex - https://canalsolar.com.br/wp-content/uploads/2022/10/31-10-22-canal-solar-omplexo-Alex-registra-geracao-de-760-GWh-durante-um-ano-de-operacao.jpg - alex.jpg
+serraDoMato - https://www.brasil.qair.energy/blog/energizacao-complexo-solar-serra-do-mato/ - serraDoMato.jpg
+lavras - https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/egidio-serpa/chegam-da-china-619-mil-placas-solares-para-usina-de-caucaia-1.3179340 - lavras.webp
+solDoFuturo - https://es.atlasrenewableenergy.com/wp-content/uploads/sol-do-futuro-solar-plant-1-1030x771.jpg - solDoFuturo.jpg
+pitombeira - https://ufvpitombeira.com.br/sustentabilidade/ - pitombeira.png
+lagoinha - https://revistane.com.br/2025/06/30/investimentos-chineses-avancam-no-nordeste-com-energia-limpa-industria-e-infraestrutura/ - lagoinha.jpg
+arapua - https://movimentoeconomico.com.br/economia/energia/2026/01/22/complexo-solar-arapua-inicia-testes-e-kroma-ultrapassa-500-mwp-em-ativos/ - arapua.webp
+apodi - https://g1.globo.com/mg/triangulo-mineiro/especial-publicitario/pacto-energia/noticia/2021/03/16/economia-mercado-livre-permite-desconto-de-ate-30percent-nas-contas-de-energia-de-empresarios.ghtml - apodi.webp
+panati - https://ciclovivo.com.br/wp-content/uploads/2024/06/ceara-piaui-energia-solar-ciclovivo1-1024x768.jpeg - panati.webp
+bomJardim - https://www.brasil.qair.energy/wp-content/uploads/2026/03/IMG_8141-1200x800.jpeg - bomJardim.jpeg
 mauriti - https://en.powerchina.cn/2025-09/15/c_828999.htm - mauriti.jpg
 milagres - https://lightsourcebp.com/project/milagres-solar/ - milagres.jpg
+lins - lins.webp
 
 
 
 RN
 
-assuSol - https://tribunadonorte.com.br/wp-content/uploads/2024/04/20240410_6EC1_FT_Divulgacao.jpg
-mendubim - https://canalsolar.com.br/wp-content/uploads/2024/04/complexo-solar-mendubim-inaugurado-jpg.webp
-floresta - https://costabrancanews.com/wp-content/uploads/2020/11/thumbnail_DJI_0102.jpg
-monteVerde - 
+assuSol - https://tribunadonorte.com.br/wp-content/uploads/2024/04/20240410_6EC1_FT_Divulgacao.jpg - assuSol.jpg
+mendubim - https://canalsolar.com.br/wp-content/uploads/2024/04/complexo-solar-mendubim-inaugurado-jpg.webp - mendubim.webp
+floresta - https://costabrancanews.com/wp-content/uploads/2020/11/thumbnail_DJI_0102.jpg - floresta.jpg
+monteVerde - https://edp.com/pt/media/historias-edp/novos-parques-hibridos-entram-em-operacao - monteVerde.webp
 dunamis - https://novonoticias.com.br/complexo-solar-inicia-operacao-no-rn-e-vai-abastecer-fabricas-da-mercedes-benz-no-brasil/ - dunamis.webp
-assu - buscar na web; inserir o link; arquivo da imagem
+assu - https://www.engie.com.br/usinas/usina-fotovoltaica-assu-v/ - assu.webp
 serraDoMel - https://uploads.eixos.com.br/2023/06/serra-do-mel-voltalia-usina-solar-fotovoltaica2-768x383.png - serraDoMel.webp
 
 
 PB
 
-coremas - https://www.weg.net/institutional/BR/pt/news/produtos-e-solucoes/complexo-solar-de-coremas-e-inaugurado-na-paraiba - coremas.webp
+coremas - https://jornaldaparaiba.com.br/politica/conversa-politica/impactos-socioambientais-parques-eolicos-usinas-solares-pb - coremas.webp
 saoJoaoDoRioDoPeixe - https://static.wixstatic.com/media/409741_aa7a9644df4d40b69005e92aeb955619~mv2.png/v1/fill/w_781,h_439,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S%C3%A3o%20Jo%C3%A3o%20do%20Rio%20do%20Peixe%20(PB).png - saoJoaoDoRioDoPeixe.avif
-angico - 
-malta - https://pt.wikipedia.org/wiki/Usina_Solar_Malta#/media/Ficheiro:Usina_Fotovoltaica_de_Malta.jpg - Por <a href="//commons.wikimedia.org/w/index.php?title=User:Kleber_Reudo&amp;action=edit&amp;redlink=1" class="new" title="User:Kleber Reudo (page does not exist)">Kleber Reudo</a> - <span class="int-own-work" lang="pt">Obra do próprio</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=107654200">Hiperligação</a>
-luzia - https://www.iberdrola.com/quem-somos/geracao-eletrica-power/energia-solar-fotovoltaica/usina-fotovoltaica-luzia
+angico - https://pt.wikipedia.org/wiki/Usina_Solar_Angicos_I - angico.jpg
+malta - https://pt.wikipedia.org/wiki/Usina_Solar_Malta - malta.jpg 
+luzia - https://canalsolar.com.br/complexo-35-milhoes-paineis-solares-paraiba/ - luzia.webp
+santaLuzia - https://www.neoenergia.com/energia-solar/complexo-solar-luzia - santaLuzia.jpg
 
 PE
 
-complexoBelmonte - PE https://saojosedobelmonte.pe.gov.br/sao-jose-do-belmonte-tera-maior-usina-solar-da-america-latina/
-complexoBomNome - PE https://www.comerc.com.br/usinas/bon-nome
-maravilhas - https://atiaiarenovaveis.com.br/usinas-solares-maravilhas-i-e-ii-ja-estao-em-operacao/
-maravilhas2 - https://conferconstrutora.com.br/ultimas_obras/3/usina_fotovoltaica_ufv_maravilhas-58
-fazendaesmeralda - 
-soldoagreste - 
-imbirim - sem usina associada - sem dados no painel
+belmonte - https://atk.ind.br/obras/cobra-brasil-montagem-eletro-civil-de-300mw-da-ufv-belmonte-i-ii/ - belmonte.jpg 
+bomNome - https://www.comerc.com.br/usinas/bon-nome - bomNome.webp
+maravilhas - https://atiaiarenovaveis.com.br/usinas-solares-maravilhas-i-e-ii-ja-estao-em-operacao/ - maravilhas.jpg
+fazendaesmeralda - https://nobilesol.com.br/projeto/ufv-esmeraldas-i/ - fazendaEsmeralda.webp
+soldoagreste - https://brasilenergia.com.br/energia/solar/complexo-sol-do-agreste-agrega-170-mw-ao-sistema-eletrico - solDoAgreste.jpg
 fontesSolar - sem usina associada - sem dados no painel
-saoPedroEPaulo - https://www.kromaenergia.com.br/wp-content/uploads/2024/02/5-1024x538.webp
+saoPedroEPaulo - https://www.kromaenergia.com.br/wp-content/uploads/2024/02/5-1024x538.webp - saoPedroPaulo.webp
 pajeus - sem dados - perímetro incorreto - sem dados associados no painel
-xaxado - 
+xaxado - https://www.joaozinhoteles.com.br/regional/maior-parque-solar-do-brasil-sera-construido-em-sao-jose-do-belmonte-no-sertao-de-pe/ - xaxado.jpg
 ciranda - 
-serrita - 
-luizGonzaga - 
-solarSalgueiro -
+serrita - serrita.jpg
+luizGonzaga - luizGonzaga.webp
+solarSalgueiro - https://mvpower.com.br/ufv-salgueiro-pe/ - salgueiro.webp
 
 
 
@@ -72,17 +69,17 @@ BA
 
 horizontes - https://crbio08.gov.br/wp-content/uploads/2018/03/parque-solar.jpg - horizontes.jpg
 irece - https://www.lmeng.com.br/projects/ufv-irece/ - irece.jpeg
-babilonia - https://www.datocms-assets.com/154362/1761925133-2025_10_31_babilonia_16.png?fm=webp&h=600&w=1200&q=90     -- erro no polígono. sem dados associados  -- aparece duas vezes, com nomes distintos;
-saoPedro - https://es.atlasrenewableenergy.com/wp-content/uploads/atlas-renewable-energy-sao-pedro-solar-plant-bahia-brazil-01-1030x646.jpg - aparece com foto de bom jesus da lapa - 
-barreiras - https://motricese.com.br/projeto/ufv-sertao-solar-barreiras
-juazeiro - 
-futura - 
-sobrado - 
-assura -
-solDoSertao - 
-sertaoSolar - 
-ituverava -
-verdeVale - 
+babilonia - https://www.datocms-assets.com/154362/1761925133-2025_10_31_babilonia_16.png?fm=webp&h=600&w=1200&q=90 - babilonia.webp
+saoPedro - https://es.atlasrenewableenergy.com/wp-content/uploads/atlas-renewable-energy-sao-pedro-solar-plant-bahia-brazil-01-1030x646.jpg - saoPedro.jpg 
+sertaoSolarBarreiras - https://motricese.com.br/projeto/ufv-sertao-solar-barreiras - sertaoSolarBarreiras.jpeg
+juazeiro - https://motricese.com.br/projeto/ufv-juazeiro - juazeiro.jpeg
+futura - futura.webp
+solarSobrado - https://www.google.com/search?q=solar+sobrado+casa+nova+ba+energia+solar+fotovoltaica+ufv&sca_esv=c22c990d6aa7f981&sxsrf=APpeQnsdWFxntyYtxoYA-bJRxWgJU0UwfQ%3A1786396586234&ei=qj96atLrDdqI5OUPx6LWkQY&biw=1920&bih=991&ved=0ahUKEwjS6Mzv_ZaWAxVaBLkGHUeRNWIQ4dUDCBA&uact=5&oq=solar+sobrado+casa+nova+ba+energia+solar+fotovoltaica+ufv&gs_lp=Egxnd3Mtd2l6LXNlcnAiOXNvbGFyIHNvYnJhZG8gY2FzYSBub3ZhIGJhIGVuZXJnaWEgc29sYXIgZm90b3ZvbHRhaWNhIHVmdjIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wVIkzRQ3Q9YtTBwAXgAkAEAmAHkAaABvRmqAQUwLjguOLgBA8gBAPgBAZgCCKACnwvCAggQABjvBRiwA8ICCBAhGKABGMMEmAMAiAYBkAYEkgcFMS4zLjSgB7EysgcFMC4zLjS4B5wLwgcDMC44yAcRgAgB&sclient=gws-wiz-serp#lpg=cid:CgIgAQ%3D%3D,ik:CAoSF0NJSE0wb2dLRUlDQWdJRGs3LV9PMGdF - solarSobrado.webp
+assura - https://atiaiarenovaveis.com.br/nossas-usinas/ - assura.jpg
+solDoSertao - https://www.solkaengenharia.com.br/c%C3%B3pia-ce-ventos-da-bahia-fase-iii - solDoSertao.avif
+ituverava - https://www.enelgreenpower.com/pt/nossos-projetos/operativos/parque-solar-ituverava - ituverava.jpg
+verdeVale - https://atiaiarenovaveis.com.br/nossas-usinas/ - verdeVale.jpg
+lapa - https://commons.wikimedia.org/w/index.php?curid=56006579 - lapa.jpg
 
 
 
