@@ -463,6 +463,9 @@
 }
 
 @media (max-width: 760px) {
+  .rotulo-municipio {
+    display: none !important;
+  }
   html,
   body,
   #mapa-usinas-ne {
