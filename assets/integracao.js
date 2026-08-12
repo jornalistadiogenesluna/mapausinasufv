@@ -18,11 +18,32 @@
 
   function atualizarIndicadorContinuidade(elemento) {
     if (!elemento) return;
+    const mapaContainer = document.getElementById('mapa-usinas-ne');
+    const indicadorId = `indicador-continuidade-${elemento.id}`;
+    let indicador = document.getElementById(indicadorId);
+    if (!indicador && mapaContainer) {
+      indicador = document.createElement('div');
+      indicador.id = indicadorId;
+      indicador.className = 'indicador-continuidade';
+      indicador.textContent = 'ROLE PARA CONTINUAR';
+      indicador.setAttribute('aria-hidden', 'true');
+      mapaContainer.appendChild(indicador);
+    }
     const interfaceMobile = window.matchMedia('(max-width: 760px)').matches;
     const recolhido = elemento.classList.contains('painel-story-recolhido')
       || elemento.classList.contains('painel-recolhido');
     const restante = elemento.scrollHeight - elemento.clientHeight - elemento.scrollTop;
-    elemento.classList.toggle('tem-continuidade', interfaceMobile && !recolhido && restante > 6);
+    const mostrar = interfaceMobile && !recolhido && restante > 6;
+    elemento.classList.toggle('tem-continuidade', mostrar);
+    if (indicador && mapaContainer) {
+      indicador.classList.toggle('visivel', mostrar);
+      if (mostrar) {
+        const painelRect = elemento.getBoundingClientRect();
+        const mapaRect = mapaContainer.getBoundingClientRect();
+        indicador.style.left = `${painelRect.left - mapaRect.left + painelRect.width / 2}px`;
+        indicador.style.top = `${painelRect.bottom - mapaRect.top - 8}px`;
+      }
+    }
   }
 
   function atualizarIndicadoresContinuidade() {
